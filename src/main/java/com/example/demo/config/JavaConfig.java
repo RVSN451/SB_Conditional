@@ -20,12 +20,4 @@ public class JavaConfig {
     public SystemProfile prodProfile() {
         return new ProductionProfile();
     }
-
-   /* @SpringBootApplication
-    public static class DemoApplication {
-
-        public static void main(String[] args) {
-            SpringApplication.run(DemoApplication.class, args);
-        }
-    }*/
 }
